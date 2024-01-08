@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: hsl(212, 45%, 89%);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   font-family: "Outfit", sans-serif;
 }
@@ -13,7 +17,7 @@ body {
 .container {
   background-color: hsl(0, 0%, 100%);
   max-width: 300px;
-  padding: 5px;
+  padding: 5px 5px 20px 5px;
   text-align: center;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
