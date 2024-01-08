@@ -50,7 +50,7 @@ body {
 
 .subtitle {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: hsl(220, 15%, 55%);
   padding: 0 20px;
   margin-bottom: 10px;
